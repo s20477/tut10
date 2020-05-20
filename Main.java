@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	Cat mruczek = new Cat("Mruczek");
-	mruczek.start();
-	System.out.println(mruczek.getType());
-	mruczek.stop();
+	Manager manager = new Manager("Jan", "Kowalski", 1990, 2010, "PJATK", 2000, 100);
+        System.out.println(manager);
+        return " Manager" + manager + "with lastname" + lastName + "and age" + getAge + "has salary" + getSalary;
+
     }
 }
